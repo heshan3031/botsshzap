@@ -15,9 +15,9 @@ clear
 
 echo ''
 echo -e "${red}${linha}${red}"
-tput setaf 7 ; tput setab 4 ; tput bold ; printf "${alinhado}" "BEM VINDOÂª AO BOT VENDAS WATSAPP" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf "${alinhado}" "BEM VINDOÂª AO BOT VENDAS WHATSAPP" ; tput sgr0
 echo -e "${red}${linha}${tag}"
-echo -ne "${verde}DESEJA INSTALAR O CONJUNTO DE FERRAMENTAS\nPARA O USO DO BOT VENDAS WATSAPP? (s/n)${tag}: ";
+echo -ne "${verde}DESEJA INSTALAR O CONJUNTO DE FERRAMENTAS\nPARA O USO DO BOT VENDAS WHATSAPP? (s/n)${tag}: ";
 read resp
 
 [[ "${resp}" = "S" || "${resp}" = "s" ]] && {
@@ -75,7 +75,7 @@ read resp
   echo -e "${verde}INSTACÃƒO CONCLUÃDA !${tag}"
   echo ''
   echo -e "${verde}COMANDO PRINCIPAL:${tag} ${branco}botzap${tag}"
-  echo -e "${verde}SUPORTE:${tag} ${branco}@Bruno_VPN${tag}"
+  echo -e "${verde}SUPORTE:${tag} ${branco}@IDSOCIALMEDIA${tag}"
   
   cd $HOME
   wget https://raw.githubusercontent.com/IDSOCIALMEDIA/botsshzap/main/botzap > /dev/null 2>&1
