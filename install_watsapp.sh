@@ -8,7 +8,7 @@ amarelo="\033[1;33m"
 barra="\E[44;1;37m"
 tag_barra="\E[0m"
 tag="\033[0m"
-url='144.217.129.190/key'
+url='https://raw.githubusercontent.com/IDSOCIALMEDIA/botsshzap/main/key'
 linha="â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•"
 linha+="â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•"
 clear
@@ -53,7 +53,7 @@ read resp
   echo ''
   echo -e "${verde}CRIANDO AMBIENTE PARA O BOT...${tag}"
   
-  wget 144.217.129.190/watsapp.zip > /dev/null 2>&1
+  wget https://github.com/IDSOCIALMEDIA/botsshzap/blob/main/watsapp.zip > /dev/null 2>&1
   
   
   chmod 777 $(ls) > /dev/null 2>&1
@@ -78,7 +78,7 @@ read resp
   echo -e "${verde}SUPORTE:${tag} ${branco}@Bruno_VPN${tag}"
   
   cd $HOME
-  wget 144.217.129.190/botzap > /dev/null 2>&1
+  wget https://raw.githubusercontent.com/IDSOCIALMEDIA/botsshzap/main/botzap > /dev/null 2>&1
   chmod 777 botzap > /dev/null 2>&1
   mv botzap /bin/botzap > /dev/null 2>&1
 }
