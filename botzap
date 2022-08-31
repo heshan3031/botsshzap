@@ -80,13 +80,13 @@ qr() {
   echo -e "${red}PRIMEIRO ATIVE O BOT !${tag}"
   sleep 3s
   menu
-  } || #{
- #echo ''
-  #cd $HOME/BOT_WATSAPP
-  #forever logs index.js
-  #sleep 10s
- # menu
-#}
+  } || {
+ echo ''
+  cd $HOME/BOT_WATSAPP
+  forever logs index.js
+  sleep 10s
+ menu
+}
 }
 
 
