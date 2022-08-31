@@ -87,7 +87,7 @@ qr() {
   sleep 10s
  menu
 }
-}
+
 
 
 main() {
