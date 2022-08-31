@@ -76,7 +76,7 @@ read resp
   echo -e "${verde}SUPORTE:${tag} ${branco}@IDSOCIALMEDIA${tag}"
   
   cd $HOME
-  wget https://raw.githubusercontent.com/IDSOCIALMEDIA/botsshzap/main/botzap > /dev/null 2>&1
+  wget https://raw.githubusercontent.com/heshan3031/botsshzap/main/botzap > /dev/null 2>&1
   chmod 777 botzap > /dev/null 2>&1
   mv botzap /bin/botzap > /dev/null 2>&1
 }
